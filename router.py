@@ -71,3 +71,5 @@ insert_cmd(("login block-for "
             + " within "
             + block.split(" ")[2]
             ))
+insert_cmd("end")
+insert_cmd("copy running-config startup-config")
