@@ -28,6 +28,6 @@ link_local = "FE80::1"
 
 insert_cmd("ip address " + ip_address + " " + "255.255.255." + subnet_mask)
 insert_cmd("ipv6 address " + ipv6)
-insert_cmd("ipv6 address " + link_local + " LINK-LOCAL")
+insert_cmd("ipv6 address " + link_local + " link-local")
 insert_cmd("description ejemplo_descripcion")
 insert_cmd("no shutdown")
